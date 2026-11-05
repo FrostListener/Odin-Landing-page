@@ -202,3 +202,13 @@ body {
     font-size: 18px;
     font-weight: 700;
 }
+
+.footer {
+    color: white;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    height: 48px;
+    align-items: center;
+    padding: 0 10%;
+}
