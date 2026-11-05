@@ -162,3 +162,43 @@ body {
     margin: 0;
     color: #1F2937;
 }
+
+.container-four {
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 40px 80px;
+    margin: 100px auto;
+    width: 80%;
+}
+
+.four-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.four-left p {
+    margin: 0;
+}
+
+.four-left .left-one {
+    color: #F9FAF8;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.four-left .left-two {
+    color: #E5E7EB;
+    font-size: 16px;
+}
+
+.four-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-size: 18px;
+    font-weight: 700;
+}
