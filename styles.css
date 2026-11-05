@@ -6,20 +6,87 @@ body {
 
 .header {
     color: white;
-    background-color: black;
+    background-color: #1F2937;
     display: flex;
-    justify-content: space-around;
-    height: 32px;
+    justify-content: space-between;
+    height: 48px;
     align-items: center;
+    padding: 0 10%;
 }
 
-h2 {
-    font-size: 16px;
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .links {
     display: flex;
     justify-content: space-between;
-    font-size: 8px;
-    gap: 12px;
+    font-size: 12px;
+    gap: 24px;
+}
+
+.container-one,
+.container-two,
+.container-three,
+.container-four,
+.container,
+.one-left,
+.one-right {
+    display: flex;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.container-one {
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding: 100px 10%;
+    gap: 50px;
+    align-items: center;
+}
+
+.one-left {
+    flex-direction: column;
+    flex: 1;
+    padding-right: 40px;
+}
+
+.one-head {
+    color: white;
+    font-size: 48px;
+    margin: 0;
+    font-weight: 900;
+    line-height: 1.1;
+}
+
+.one-info {
+    color: #E5E7EB;
+    line-height: 1.5;
+    font-size: 18px;
+    font-weight: 100;
+    margin: 16px 0 24px 0;
+}
+
+.one-button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 32px;
+    font-size: 18px;
+    font-weight: 700;
+    width: fit-content;
+}
+
+.one-right {
+    justify-content: center;
+    background-color: grey;
+    margin: 10px;
+    align-items: center;
+    flex: 1;
+    color: white;
+    min-height: 250px;
 }
